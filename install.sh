@@ -6,6 +6,7 @@ sudo apt install cmake -y
 sudo apt install build-essential -y
 sudo apt install ncdu -y
 sudo apt install ripgrep -y
+sudo apt-get install openjdk-21-jdk -y
 sudo apt install xclip -y
 
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
