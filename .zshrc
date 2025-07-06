@@ -3,7 +3,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/.local/bin:$PATH"
 
-
 alias cd="z"
 alias celar="clear"
 alias e="exit"
@@ -16,6 +15,8 @@ alias wifi="nmtui"
 alias gwl="git worktree list"
 alias gwp="git worktree prune"
 alias gwa="git worktree add"
+alias msda="sudo mount /dev/sda /mnt/sda"
+alias usda="sudo umount /mnt/sda"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -122,3 +123,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+export PATH=/usr/local/cuda-12/bin:${PATH}
