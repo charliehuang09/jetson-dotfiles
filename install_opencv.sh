@@ -7,7 +7,7 @@ folder="workspace"
 
 set -e
 
-for (( ; ; ))
+while true
 do
     echo "Do you want to remove the default OpenCV (yes/no)?"
     read rm_old
